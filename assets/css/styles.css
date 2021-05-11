@@ -10,3 +10,8 @@
 .opacity90 {
     opacity: 90%;
 }
+
+.footer-height {
+    align-self: baseline;
+    height: 200px;
+}
