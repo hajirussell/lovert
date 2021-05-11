@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body class="background">
     <header>
         <!--NAVBAR-->
-        <nav>
+        <nav class="bg-white opacity90">
             <ul class="nav list-unstyled d-flex justify-content-center m-3">
                 <li class="nav-item">
                     <a class="nav-link active" href="index.html">Home</a>
@@ -37,7 +37,25 @@
     </header>
 
     <main>
-
+        <div class="container-fluid w-50 border border-primary py-2 bg-white opacity90">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted"><a href=". . .">Forgot Email?</a></small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <small id="emailHelp" class="form-text text-muted"><a href=". . .">Forgot Password?</a></small>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">I am making a payment</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+        </div>
     </main>
 
     <!--FOOTER-->
