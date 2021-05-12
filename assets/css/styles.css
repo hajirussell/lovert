@@ -26,3 +26,7 @@
 .whitespace {
     margin-bottom:200px;
 }
+
+.form-fill{
+    max-width: 600px;
+}
