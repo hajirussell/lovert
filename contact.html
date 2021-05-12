@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -15,57 +15,58 @@
 <body class="background-contact">
     <header>
         <!--NAVBAR-->
-        <nav>
+        <nav class="topnav opacity90">
             <ul class="nav list-unstyled d-flex justify-content-center m-3">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="products.html">Products</a>
+                    <a class="nav-link" href="products.html">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="user registration.html">New? Register Here</a>
+                    <a class="nav-link" href="user registration.html">New? Register Here</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="user login.html">Returning User? Login</a>
+                    <a class="nav-link" href="user login.html">Returning User? Login</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main class="whitespace">
-        <div class="container justify-content-center">
+        <div class="container justify-content-center form-fill">
             <div class="border border-primary bg-secondary m-5 p-3">
                 <form>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">First Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John">
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Last Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Smith">
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Smith" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
+                            placeholder="name@example.com" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">What are you reaching out for?</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>Vacation Package</option>
-                            <option>Billing Issues</option>
-                            <option>Alternative Payment Options</option>
-                            <option>Timeshare Release Policies</option>
-                            <option>p̶̟̈ĺ̶͍e̶̩̿a̶̱͆ś̸̥e̵̗̒ ̶͙̕ŕ̸͕e̴̹͆l̷̯͑e̷̥͌ä̴̡́ṣ̶̉e̵̢̛ ̶͍̇m̶͎͊e̶̠̾</option>
+                        <select class="form-control" id="exampleFormControlSelect1" required>
+                            <option value="">Please Select</option>
+                            <option value="Vacation Package">Vacation Package</option>
+                            <option value="Billing Issues">Billing Issues</option>
+                            <option value="Alternative Payment Options">Alternative Payment Options</option>
+                            <option value="Timeshare Release Policies">Timeshare Release Policies</option>
+                            <option value="p̶̟̈ĺ̶͍e̶̩̿a̶̱͆ś̸̥e̵̗̒ ̶͙̕ŕ̸͕e̴̹͆l̷̯͑e̷̥͌ä̴̡́ṣ̶̉e̵̢̛ ̶͍̇m̶͎͊e̶̠̾">p̶̟̈ĺ̶͍e̶̩̿a̶̱͆ś̸̥e̵̗̒ ̶͙̕ŕ̸͕e̴̹͆l̷̯͑e̷̥͌ä̴̡́ṣ̶̉e̵̢̛ ̶͍̇m̶͎͊e̶̠̾</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Please provide details</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
