@@ -12,6 +12,12 @@
 }
 
 .footer-height {
-    align-self: baseline;
-    height: 200px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.background-contact {
+    background-image: url("../images/spacehorizon.jpg");
+    background-repeat: no-repeat;
 }
