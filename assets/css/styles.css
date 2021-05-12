@@ -1,5 +1,10 @@
 .carousel-image {
-    height: 275px;
+    height: 350px;
+}
+
+.fixed-height {
+    width: 100%;
+    height: 250px;
 }
 
 .background {
@@ -35,6 +40,8 @@
     max-width: 600px;
 }
 
+/* COLOR STYLES */
+
 .topnav {
     overflow: hidden;
     background-color: rgb(0, 0, 0);
@@ -57,3 +64,25 @@
     background-color: #04AA6D;
     color: white;
   }
+
+.solid-bg-cultured {
+    background-color: #6a8a84;
+}
+
+.footer-color-style {
+    background-color: #141414;
+    color: #88ecce;
+}
+
+.links a {
+    color: #f1f2f3;
+}
+
+  /* CSS HEX
+--cultured: #f1f2f3;
+--magic-mint: #88ecce;
+--green-sheen: #79bba9;
+--steel-teal: #6a8a84;
+--hookers-green: #517c6b;
+--amazon: #376d51;
+--eerie-black: #141414; */
