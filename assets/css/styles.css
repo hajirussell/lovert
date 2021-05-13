@@ -7,13 +7,16 @@
     height: 250px;
 }
 
-.background {
-    background-image: url("../images/octopustentacles75.jpg");
-    background-repeat: no-repeat;
+.opacity100 {
+    opacity: 100%;
 }
 
 .opacity90 {
     opacity: 90%;
+}
+
+.opacity75 {
+    opacity: 75%;
 }
 
 .footer-height {
@@ -21,11 +24,6 @@
     bottom: 0;
     width: 100%;
     height: 125px;
-}
-
-.background-contact {
-    background-image: url("../images/spacehorizon50.jpg");
-    background-repeat: no-repeat;
 }
 
 .whitespace {
@@ -40,6 +38,19 @@
     max-width: 600px;
 }
 
+
+/* BACKGROUNDS WITH PICTURES*/
+
+.background-contact {
+    background-image: url("../images/spacehorizon50.jpg");
+    background-repeat: no-repeat;
+}
+
+.background {
+    background-image: url("../images/octopustentacles50.jpg");
+    background-repeat: no-repeat;
+}
+
 /* COLOR STYLES */
 
 .topnav {
@@ -48,7 +59,7 @@
   }
   
   .topnav a {
-    color: #f2f2f2;
+    color: #f1f2f3;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -56,17 +67,22 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #141414;
+    color: #88ecce;
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #376d51;
+    color: #f1f2f3;
   }
 
-.solid-bg-cultured {
+.solid-bg-steel {
     background-color: #6a8a84;
+}
+
+.solid-bg-cultured {
+    background-color: #f1f2f3;
+    color: #141414;
 }
 
 .footer-color-style {
@@ -78,6 +94,21 @@
     color: #f1f2f3;
 }
 
+.content-card h3 {
+    color: #f1f2f3;
+}
+
+.content-card p {
+    color: #141414;
+}
+
+.text-small {
+    color: #88ecce;
+}
+
+.btn-custom-amazon {
+    bg
+}
   /* CSS HEX
 --cultured: #f1f2f3;
 --magic-mint: #88ecce;
