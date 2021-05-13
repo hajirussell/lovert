@@ -107,7 +107,12 @@
 }
 
 .btn-custom-amazon {
-    bg
+    background-color: #376d51;
+    color: #f1f2f3;
+}
+
+.border-custom {
+    border: solid 5px #517c6b;
 }
   /* CSS HEX
 --cultured: #f1f2f3;
