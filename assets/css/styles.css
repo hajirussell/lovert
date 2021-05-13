@@ -102,6 +102,11 @@
     color: #141414;
 }
 
+.content-card-bg {
+    background-color: #67a192;
+    padding: 10px;
+}
+
 .text-small {
     color: #88ecce;
 }
@@ -114,10 +119,29 @@
 .border-custom {
     border: solid 5px #517c6b;
 }
+
+.solid-bg-sheen {
+    background-color: #79bba9;
+}
+
+.col-color {
+    background-color: #f1f2f3;
+}
+
+.table-color {
+    background-color: #6a8a84;
+    color: #141414;
+    text-transform: uppercase;
+    border: solid 3px #88ecce;
+}
+
+.table-bottom-border {
+    border-bottom: solid 3px #88ecce;
+}
   /* CSS HEX
 --cultured: #f1f2f3;
 --magic-mint: #88ecce;
---green-sheen: #79bba9;
+--green-sheen: ;#79BBA9
 --steel-teal: #6a8a84;
 --hookers-green: #517c6b;
 --amazon: #376d51;
